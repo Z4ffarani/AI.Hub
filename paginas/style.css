@@ -200,6 +200,8 @@ header h1 {
     border-radius: 12px;
     align-items: center;
     position: relative;
+    width: 250px;
+    height: 210px;
 }
 
 .card img {
