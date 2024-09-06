@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI.Hub - Descubra</title>
+    <link rel="icon" href="./assets/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="../pagina-descubra/assets/background-descubra.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução de vídeo.
+    </video>
+
+    <header>
+        <h1>AI.Hub</h1>
+    </header>
+
+    <main>
+        <section class="info-links">
+            <a href="../pagina-sobre/sobre.html">Sobre</a>
+            <a href="index.html">Descubra</a>
+            <a href="https://www.alura.com.br/artigos/como-criar-inteligencia-artificial-ia?srsltid=AfmBOorHUnmCRJnA0-FtHvqIj7VzkTpHovw9Be35crAcpBqSjL1wYaQe">Como criar?</a>
+        </section>
+
+        <section class="search-section">
+            <input type="text" id="search-input" placeholder="Procure por IA's" oninput="filtrarIAs()">
+        </section>
+
+
+        <section class="ai-columns" id="ai-columns">
+            <div class="column" id="assistente-column">
+                <h2>Assistente:</h2>
+                <div class="card-container" id="cards-assistente"></div>
+            </div>
+
+            <div class="column" id="design-column">
+                <h2>Design:</h2>
+                <div class="card-container" id="cards-design"></div>
+            </div>
+
+            <div class="column" id="video-column">
+                <h2>Vídeo:</h2>
+                <div class="card-container" id="cards-video"></div>
+            </div>
+
+            <div class="column" id="musica-column">
+                <h2>Música:</h2>
+                <div class="card-container" id="cards-musica"></div>
+            </div>
+
+            <div class="column" id="estudo-column">
+                <h2>Estudo:</h2>
+                <div class="card-container" id="cards-estudo"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - AI.Hub. Todos os direitos reservados.</p>
+    </footer>  
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

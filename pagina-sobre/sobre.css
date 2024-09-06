@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: black;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+header {
+    padding: 40px 0;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.info-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.7rem;
+    transition: opacity 0.5s ease;
+    position: relative;
+    z-index: 999;
+}
+
+.info-links.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.info-links a {
+    color: #f5f5f5;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+    font-size: 1.1rem;
+    margin-top: 9rem;
+}
+
+.info-links a:hover {
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+}
+
+.info-links a::after {
+    content: '|';
+    opacity: 0.5;
+    padding: 0px 10px;
+}
+
+.info-links a:last-child::after {
+    content: '';
+    padding: 0px;
+}
+
+.content-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 2.2rem;
+    color: #00b7ff;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.3rem;
+    background-color: #141414cc;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid 2px #00b7ff;
+    animation: blink 5s ease;
+    animation-iteration-count: infinite;
+    max-width: 1100px;
+}
+
+@keyframes blink {
+    0% {
+        border: solid 2px #00b7ff00;
+    }
+    50% {
+        border: solid 2px #00b7ff;
+    }
+    100% {
+        border: solid 2px #00b7ff00;
+    }
+}
+
+.text-content {
+    flex: 1;
+    padding: 0px 30px;
+    text-align: justify;
+}
+
+.text-content h3 {
+    font-size: 1.8rem;
+    margin: 0 0 1rem 0;
+    color: #00b7ff;
+}
+
+.text-content p, .text-content ul {
+    font-size: 1.1rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 560px;
+}
+
+.text-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.text-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.img-left, .img-right {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+footer {
+    color: #999;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+@media (max-width: 1200px) {
+    .content-section {
+        padding: 1rem;
+    }
+
+    .step {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .img-left, .img-right {
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 1 / 1;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-content {
+        padding: 15px;
+    }
+
+    .step {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .text-content, .img-left, .img-right {
+        margin-bottom: 1rem;
+    }
+
+    .img-left, .img-right {
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 1 / 1;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 30px auto;
+    }
+}
