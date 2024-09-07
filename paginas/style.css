@@ -201,7 +201,9 @@ header h1 {
     align-items: center;
     position: relative;
     width: 250px;
-    height: 210px;
+    max-height: 220px;
+    min-height: 220px;
+    justify-content: space-evenly;
 }
 
 .card img {
@@ -295,8 +297,22 @@ footer {
     .column {
         margin-bottom: 0.5rem;
         max-height: 50px;
+        max-width: 250px;
         overflow: hidden;
         transition: max-height 0.3s ease-in-out;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+        overflow: hidden;
+        max-height: 100%;
+        overflow-y: auto;
+        scale: 90%;
+        margin-top: 0px;
     }
 
     .column.active {
