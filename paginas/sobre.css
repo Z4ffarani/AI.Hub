@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    padding: 40px 0;
+    padding: 30px 0;
     text-align: center;
     backdrop-filter: blur(10px);
     position: fixed;
@@ -60,7 +60,7 @@ header h1 {
     position: relative;
     transition: color 0.3s ease;
     font-size: 1.1rem;
-    margin-top: 9rem;
+    margin-top: 7rem;
 }
 
 .info-links a:hover {
