@@ -59,24 +59,14 @@ header h1 {
     text-decoration: none;
     position: relative;
     transition: color 0.3s ease;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-top: 7rem;
+    padding: 0px 5px;
 }
 
 .info-links a:hover {
     color: rgb(0, 183, 255);
     text-decoration: none;
-}
-
-.info-links a::after {
-    content: '|';
-    opacity: 0.5;
-    padding: 0px 10px;
-}
-
-.info-links a:last-child::after {
-    content: '';
-    padding: 0px;
 }
 
 .content-section {
@@ -92,6 +82,7 @@ header h1 {
 .content-section h2 {
     font-size: 2.2rem;
     color: #00b7ff;
+    margin-top: 10px;
 }
 
 .step {
@@ -142,7 +133,7 @@ header h1 {
 
 .text-content ul {
     list-style: disc;
-    padding-left: 20px;
+    padding-left: 4px;
 }
 
 .text-content ul li {

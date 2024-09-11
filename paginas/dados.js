@@ -1,161 +1,191 @@
 const dadosIA = {
-    "assistente": [
+    "geral": [
         {
             titulo: "Google Gemini",
             imagem: "./assets-descubra/google-gemini.png",
-            descricao: "Google Gemini é um chatbot avançado da Google que oferece suporte para uma variedade de tarefas.",
+            descricao: "Google Gemini é um chatbot avançado que oferece suporte versátil para uma ampla gama de tarefas e interações.",
             link: "https://www.google.com/gemini"
         },
         {
             titulo: "ChatGPT",
             imagem: "./assets-descubra/chatgpt.png",
-            descricao: "ChatGPT é um chatbot da OpenAI que oferece suporte em conversas naturais e auxilia em diversas tarefas.",
+            descricao: "ChatGPT é um chatbot da OpenAI que fornece interações conversacionais e assistência em diversas atividades.",
             link: "https://chat.openai.com"
         },
         {
-            titulo: "Microsoft Copilot",
+            titulo: "Copilot",
             imagem: "./assets-descubra/microsoft-copilot.png",
-            descricao: "Microsoft Copilot é uma ferramenta de assistente virtual da Microsoft que integra capacidades de IA em vários produtos.",
+            descricao: "Copilot é um assistente virtual da Microsoft que integra IA em produtos para melhorar produtividade e suporte.",
             link: "https://www.microsoft.com/copilot"
+        },
+        {
+            titulo: "Meta AI",
+            imagem: "./assets-descubra/metaai.png",
+            descricao: "Meta AI é um chatbot da Meta que combina raciocínio complexo, visualização de ideias e resolução de problemas.",
+            link: "https://www.meta.ai"
+        },
+        {
+            titulo: "Jasper",
+            imagem: "./assets-descubra/jasper.png",
+            descricao: "Jasper é um chatbot de IA especializado em criar textos e conteúdo de marketing a partir de prompts específicos.",
+            link: "https://www.jasper.ai"
         },
         {
             titulo: "Cohesive AI",
             imagem: "./assets-descubra/cohesive-ai.jpg",
-            descricao: "Cohesive é uma ferramenta de assistente virtual que oferece suporte em várias áreas, como organização e produtividade.",
+            descricao: "Cohesive é um assistente virtual que oferece suporte em organização e produtividade com inteligência adaptativa.",
             link: "https://cohesive.so"
         },
-        {
-            titulo: "Meta AI",
-            imagem: "./assets-descubra/meta-ai.png",
-            descricao: "Meta AI é uma plataforma de assistente virtual desenvolvida pela Meta, focada em integração e suporte avançado.",
-            link: "https://www.meta.ai/"
-        },
     ],
-    "design": [
+    "imagem": [
+        {
+            titulo: "Midjourney",
+            imagem: "./assets-descubra/midjourney.png",
+            descricao: "MidJourney gera imagens a partir de descrições textuais, proporcionando resultados visuais criativos e únicos.",
+            link: "https://www.midjourney.com/explore?tab=top"
+        },
+        {
+            titulo: "NightCafe",
+            imagem: "./assets-descubra/nightcafeai.png",
+            descricao: "NightCafe cria imagens a partir de prompts e estilos diversos, permitindo uma ampla personalização visual.",
+            link: "https://creator.nightcafe.studio"
+        },
         {
             titulo: "Stable Diffusion",
             imagem: "./assets-descubra/stable-diffusion.png",
-            descricao: "Stable Diffusion é uma IA que gera imagens de alta qualidade a partir de descrições textuais.",
+            descricao: "Stable Diffusion gera imagens de alta qualidade a partir de descrições textuais, com ênfase em detalhes e precisão.",
             link: "https://stablediffusionweb.com"
-        },
-        {
-            titulo: "Looka",
-            imagem: "./assets-descubra/looka.png",
-            descricao: "Looka usa IA para criar logotipos e identidades visuais personalizadas para marcas.",
-            link: "https://looka.com"
         },
         {
             titulo: "Dreamstudio",
             imagem: "./assets-descubra/dreamstudio.png",
-            descricao: "Dreamstudio é uma plataforma de design que usa IA para gerar imagens e arte digital.",
+            descricao: "Dreamstudio utiliza IA para criar arte digital e imagens com base em inputs criativos dos usuários.",
             link: "https://dreamstudio.ai"
         },
         {
-            titulo: "Fotor",
-            imagem: "./assets-descubra/fotor.png",
-            descricao: "Fotor é uma ferramenta de edição de fotos e design gráfico que usa IA para melhorar imagens.",
-            link: "https://www.fotor.com"
+            titulo: "Looka",
+            imagem: "./assets-descubra/looka.png",
+            descricao: "Looka gera logotipos e identidades visuais personalizadas utilizando IA para atender às necessidades de marcas e empresas.",
+            link: "https://looka.com"
         },
         {
             titulo: "Deep Dream Generator",
             imagem: "./assets-descubra/deep-dream-generator.png",
-            descricao: "Deep Dream Generator usa IA para transformar imagens comuns em obras de arte surrealistas.",
+            descricao: "Deep Dream Generator transforma imagens comuns em arte surrealista através de algoritmos de IA avançados.",
             link: "https://deepdreamgenerator.com"
         },
     ],
     "video": [
         {
-            titulo: "KlingAI",
-            imagem: "./assets-descubra/kling-ai.jpg",
-            descricao: "KlingAI utiliza IA para gerar vídeos e edições automatizadas com base em dados.",
-            link: "https://klingai.com"
+            titulo: "Runway",
+            imagem: "./assets-descubra/runway.png",
+            descricao: "Runway é uma plataforma de IA para criação e edição de vídeos, com ferramentas inovadoras para diversos tipos de conteúdo.",
+            link: "https://runwayml.com"
         },
         {
-            titulo: "Ssemble",
-            imagem: "./assets-descubra/ssemble.png",
-            descricao: "Ssemble usa IA para ajudar na criação e edição de vídeos com suporte automatizado.",
-            link: "https://ssemble.com"
+            titulo: "Luma AI",
+            imagem: "./assets-descubra/lumaai.png",
+            descricao: "Luma AI usa IA para gerar vídeos e conteúdos visuais a partir de prompts e imagens, facilitando a criação de mídia personalizada.",
+            link: "https://lumalabs.ai/dream-machine"
+        },
+        {
+            titulo: "KlingAI",
+            imagem: "./assets-descubra/kling-ai.jpg",
+            descricao: "KlingAI cria e edita vídeos automaticamente com base em prompts, oferecendo soluções práticas para criação de conteúdo.",
+            link: "https://klingai.com"
         },
         {
             titulo: "InVideo",
             imagem: "./assets-descubra/invideo.png",
-            descricao: "InVideo oferece criação de vídeos automatizada a partir de texto e modelos, utilizando IA.",
+            descricao: "InVideo fornece criação automatizada de vídeos a partir de promptss e modelos, ideal para marketing e produção rápida.",
             link: "https://invideo.io"
         },
         {
+            titulo: "Ssemble",
+            imagem: "./assets-descubra/ssemble.png",
+            descricao: "Ssemble utiliza IA para facilitar a criação e edição de vídeos, com suporte automatizado para otimizar o processo.",
+            link: "https://ssemble.com"
+        },
+        {
+            titulo: "Lumen5",
+            imagem: "./assets-descubra/lumen5.png",
+            descricao: "Lumen5 transforma prompts em vídeos de marketing profissionais, utilizando IA para criar conteúdo visual de alta qualidade.",
+            link: "https://lumen5.com"
+        },
+    ],
+    "audio": [
+        {
             titulo: "ElevenLabs",
             imagem: "./assets-descubra/eleven-labs.png",
-            descricao: "ElevenLabs utiliza IA para criar e editar vídeos com recursos avançados de análise e criação.",
+            descricao: "ElevenLabs cria vozes realistas a partir de prompt, ideal para narrações e dublagens com alta qualidade de áudio.",
             link: "https://www.elevenlabs.io"
         },
         {
-            titulo: "Falatron",
-            imagem: "./assets-descubra/falatron.png",
-            descricao: "Falatron é uma IA que cria vídeos e conteúdos visuais com base em análises de dados e texto.",
-            link: "https://falatron.com"
-        },
-    ],
-    "musica": [
-        {
             titulo: "Suno AI",
             imagem: "./assets-descubra/suno-ai.png",
-            descricao: "Suno AI utiliza IA para compor música com base em parâmetros definidos pelo usuário.",
+            descricao: "Suno AI compõe músicas com base em parâmetros definidos pelo usuário, proporcionando áudio personalizado.",
             link: "https://suno.ai"
         },
         {
             titulo: "Udio",
             imagem: "./assets-descubra/udio.png",
-            descricao: "Udio usa IA para criar música personalizada e adaptar composições às necessidades do usuário.",
+            descricao: "Udio gera música personalizada e adapta composições conforme as necessidades do usuário, utilizando IA.",
             link: "https://udio.com"
         },
         {
             titulo: "Mubert",
             imagem: "./assets-descubra/mubert.png",
-            descricao: "Mubert utiliza IA para gerar música em tempo real para diferentes propósitos e ambientes.",
+            descricao: "Mubert cria música em tempo real para diversos usos, aplicando IA para ajustar o áudio conforme o ambiente.",
             link: "https://mubert.com"
         },
         {
             titulo: "Soundraw",
             imagem: "./assets-descubra/soundraw.png",
-            descricao: "Soundraw é uma IA que cria músicas personalizadas com base nas preferências e necessidades do usuário.",
+            descricao: "Soundraw oferece criação de músicas personalizadas baseadas nas preferências do usuário, com suporte de IA.",
             link: "https://soundraw.io"
         },
         {
             titulo: "Aiva",
             imagem: "./assets-descubra/aiva.png",
-            descricao: "Aiva é uma IA compositora que cria músicas originais em diversos estilos e gêneros.",
+            descricao: "Aiva compõe músicas originais em diversos estilos e gêneros, utilizando IA para criar trilhas sonoras personalizadas.",
             link: "https://www.aiva.ai"
         },
     ],
     "estudo": [
         {
-            titulo: "Perplexity",
-            imagem: "./assets-descubra/perplexity.png",
-            descricao: "Perplexity é uma IA que fornece respostas e análises detalhadas para questões acadêmicas e pesquisas.",
-            link: "https://www.perplexity.ai"
-        },
-        {
             titulo: "Humata",
             imagem: "./assets-descubra/humata.png",
-            descricao: "Humata é uma ferramenta de IA que auxilia na compreensão e análise de textos complexos.",
+            descricao: "Humata ajuda na compreensão e análise de textos complexos, utilizando IA para facilitar a pesquisa e aprendizado.",
             link: "https://www.humata.ai"
         },
         {
-            titulo: "Kuki.ia",
-            imagem: "./assets-descubra/kuki-ai.png",
-            descricao: "Kuki.ia é uma IA que fornece explicações e análises sobre uma ampla gama de tópicos acadêmicos e técnicos.",
-            link: "https://www.kuki.ai/"
+            titulo: "Claude",
+            imagem: "./assets-descubra/claude.png",
+            descricao: "Claude é um assistente de IA que gera textos e fornece suporte em diversas atividades acadêmicas e profissionais.",
+            link: "https://claude.ai/login?returnTo=%2F%3F"
         },
         {
             titulo: "Consensus",
             imagem: "./assets-descubra/consensus.png",
-            descricao: "Consensus utiliza IA para fornecer resumos e respostas baseadas em consenso de várias fontes.",
+            descricao: "Consensus oferece resumos e respostas baseadas em consenso de múltiplas fontes, facilitando a pesquisa e análise.",
             link: "https://consensus.app"
         },
         {
-            titulo: "Typeset",
-            imagem: "./assets-descubra/typeset.png",
-            descricao: "Typeset usa IA para formatar e melhorar a apresentação de documentos acadêmicos e textos.",
+            titulo: "Perplexity",
+            imagem: "./assets-descubra/perplexity.png",
+            descricao: "Perplexity fornece respostas e análises detalhadas para questões acadêmicas, utilizando IA para interpretar dados e pesquisas.",
+            link: "https://www.perplexity.ai"
+        },
+        {
+            titulo: "Elicit",
+            imagem: "./assets-descubra/elicit.png",
+            descricao: "Elicit auxilia nos estudos e na organização de informações, otimizando o processo de coleta e análise de dados.",
+            link: "https://elicit.com/welcome"
+        },
+        {
+            titulo: "SciSpace",
+            imagem: "./assets-descubra/scispace.jpg",
+            descricao: "SciSpace facilita a exploração e compreensão de artigos científicos, utilizando IA para simplificar a leitura e análise.",
             link: "https://www.typeset.io"
         },
     ]
