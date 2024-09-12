@@ -28,29 +28,29 @@ Com este projeto, o objetivo principal foi otimizar o acesso às IAs que estão 
 - Ao acessar ou utilizar o site AI.Hub, o usuário concorda com os presentes Termos de Uso, que podem ser alterados a qualquer momento sem aviso prévio. O uso contínuo do site após a publicação de alterações significa que o usuário concorda com essas modificações.
 
 ### Natureza do serviço:
-- O AI.Hub é uma plataforma destinada à consulta e descoberta de IAs para diversas finalidades, facilitando o acesso a ferramentas através de links para websites externos.
+- AI.Hub é uma plataforma destinada à consulta e descoberta de IAs para diversas finalidades, facilitando o acesso a ferramentas através de links para websites externos.
 - O conteúdo é fornecido com caráter informativo, e o AI.Hub não oferece garantias explícitas ou implícitas sobre o desempenho, funcionalidades, ou resultados das IAs listadas no catálogo do site.
-- O AI.Hub não realiza parcerias comerciais ou associações com as empresas proprietárias das IAs listadas no catálogo do site, a menos que expressamente indicado.
+- AI.Hub não realiza parcerias comerciais ou associações com as empresas proprietárias das IAs listadas no catálogo do site, a menos que expressamente indicado.
 
 ### Limitações de responsabilidade:
-- O AI.Hub não garante a gratuidade das IAs recomendadas. Algumas ferramentas podem oferecer planos pagos ou limitações no uso gratuito, e isso é de responsabilidade das empresas proprietárias.
-- O AI.Hub não se responsabiliza por eventuais erros, interrupções de serviço ou incompatibilidades das IAs sugeridas.
-- O AI.Hub não tem controle sobre os sites e serviços de terceiros mencionados e, portanto, não se responsabiliza pelo conteúdo, políticas de privacidade ou práticas desses sites.
+- AI.Hub não garante a gratuidade das IAs recomendadas. Algumas ferramentas podem oferecer planos pagos ou limitações no uso gratuito, e isso é de responsabilidade das empresas proprietárias.
+- AI.Hub não se responsabiliza por eventuais erros, interrupções de serviço ou incompatibilidades das IAs sugeridas.
+- AI.Hub não tem controle sobre os sites e serviços de terceiros mencionados e, portanto, não se responsabiliza pelo conteúdo, políticas de privacidade ou práticas desses sites.
 
 ### Dados pessoais e privacidade:
 - O usuário é responsável por tomar decisões conscientes ao compartilhar dados pessoais nos sites de terceiros acessados a partir dos links fornecidos no AI.Hub. Recomenda-se a leitura atenta das políticas de privacidade e termos de uso dos serviços externos.
-- O AI.Hub não coleta ou compartilha dados pessoais dos usuários.
+- AI.Hub não coleta ou compartilha dados pessoais dos usuários.
 
 ### Direitos autorais e propriedade intelectual:
 - Todo o conteúdo disponível no site, como textos, design, imagens e marca AI.Hub, é de propriedade exclusiva do site, salvo quando indicado de outra forma. É proibido copiar, distribuir, modificar ou utilizar o conteúdo sem permissão explícita.
 - As marcas, logotipos e nomes das IAs apresentadas são de propriedade de seus respectivos proprietários, sendo exibidos no AI.Hub apenas para fins de divulgação.
 
 ### Conteúdo gerado por terceiros:
-- O AI.Hub não é responsável pelos produtos, serviços ou conteúdos gerados pelas empresas proprietárias das IAs listadas. O usuário deve realizar a devida diligência ao utilizar as ferramentas e garantir que os produtos e serviços atendam aos seus requisitos.
-- O AI.Hub não se responsabiliza por danos diretos ou indiretos que possam resultar do uso ou má utilização das IAs recomendadas no site.
+- AI.Hub não é responsável pelos produtos, serviços ou conteúdos gerados pelas empresas proprietárias das IAs listadas. O usuário deve realizar a devida diligência ao utilizar as ferramentas e garantir que os produtos e serviços atendam aos seus requisitos.
+- AI.Hub não se responsabiliza por danos diretos ou indiretos que possam resultar do uso ou má utilização das IAs recomendadas no site.
 
 ### Alterações no serviço:
-- O AI.Hub se reserva o direito de modificar, remover ou adicionar funcionalidades ao site a qualquer momento, sem necessidade de aviso prévio.
+- AI.Hub se reserva o direito de modificar, remover ou adicionar funcionalidades ao site a qualquer momento, sem necessidade de aviso prévio.
 - O site pode, a qualquer momento, alterar o escopo das IAs recomendadas ou retirar serviços que não estão mais disponíveis ou que não se alinham com a proposta do site.
 
 ### Exclusão de garantias:
