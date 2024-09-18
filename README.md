@@ -25,7 +25,7 @@ Com este projeto, o objetivo principal foi otimizar o acesso às IAs que estão 
 
 # TERMOS DE USO
 ### Aceitação dos termos:
-- Ao acessar ou utilizar o site AI.Hub, o usuário concorda com os presentes Termos de Uso, que podem ser alterados a qualquer momento sem aviso prévio. O uso contínuo do site após a publicação de alterações significa que o usuário concorda com essas modificações.
+- Ao acessar ou utilizar o site AI.Hub, o usuário concorda com os presentes termos de uso, que podem ser alterados a qualquer momento sem aviso prévio. O uso contínuo do site após a publicação de alterações significa que o usuário concorda com essas modificações.
 
 ### Natureza do serviço:
 - AI.Hub é uma plataforma destinada à consulta e descoberta de IAs para diversas finalidades, facilitando o acesso a ferramentas através de links para websites externos.
