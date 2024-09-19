@@ -57,6 +57,12 @@ const dadosIA = {
             link: "https://stablediffusionweb.com"
         },
         {
+            titulo: "Krea.ai",
+            imagem: "./assets-descubra/krea.ai.png",
+            descricao: "Krea.ai é uma plataforma de criação de imagens e vídeos gerados por IA, ajustando-os com estilos e temas.",
+            link: "https://www.krea.ai/home"
+        },
+        {
             titulo: "Dreamstudio",
             imagem: "./assets-descubra/dreamstudio.png",
             descricao: "Dreamstudio utiliza IA para criar arte digital e imagens com base em inputs criativos dos usuários.",
