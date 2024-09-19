@@ -7,7 +7,7 @@ A interface do site foi desenhada com foco em uma estética simplória, mas com 
 
 O layout responsivo foi cuidadosamente trabalhado para garantir que o site se adapte perfeitamente a diferentes dispositivos e tamanhos de tela, desde desktops até smartphones, sempre mantendo a usabilidade. Através de um sistema de colunas e gavetas, as categorias de IAs são exibidas de maneira organizada e podem ser filtradas por meio de uma barra de pesquisa, que refina os resultados conforme o usuário digita.
 
-Com este projeto, o objetivo principal foi otimizar o acesso às IAs que estão revolucionando o mercado, tornando-as mais visíveis e acessíveis para um público mais amplo. Ao reunir ferramentas disruptivas e categorizá-las de maneira dinâmica, o site oferece uma experiência simplificada, mas altamente eficiente, promovendo a inovação e ajudando os usuários a explorar o potencial de novas tecnologias!
+O principal objetivo do projeto é otimizar o acesso às IAs que estão revolucionando o mercado, tornando-as mais visíveis e acessíveis para um público mais amplo. Ao reunir ferramentas disruptivas e categorizá-las de maneira dinâmica, o site oferece uma experiência simplificada, mas altamente eficiente, promovendo a inovação e ajudando os usuários a explorar o potencial de novas tecnologias!
 
 # FUNCIONALIDADES
 - <b>Layout responsivo </b>| O site é otimizado para diferentes tamanhos de tela, com scroll horizontal em telas grandes e estilo de gaveta para dispositivos móveis.
