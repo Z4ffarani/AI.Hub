@@ -80,12 +80,6 @@ const dadosIA = {
             descricao: "Looka gera logotipos e identidades visuais personalizadas utilizando IA para atender às necessidades de marcas e empresas.",
             link: "https://looka.com"
         },
-        {
-            titulo: "Deep Dream Generator",
-            imagem: "./assets-descubra/deep-dream-generator.png",
-            descricao: "Deep Dream Generator transforma imagens comuns em arte surrealista através de algoritmos de IA avançados.",
-            link: "https://deepdreamgenerator.com"
-        },
     ],
     "video": [
         {
