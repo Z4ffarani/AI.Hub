@@ -39,6 +39,12 @@ const dadosIA = {
     ],
     "imagem": [
         {
+            titulo: "Adobe Firefly",
+            imagem: "./assets-descubra/adobe-firefly.png",
+            descricao: "O Adobe Firefly é uma plataforma de inteligência artificial generativa da Adobe, projetada para criar conteúdo visual de maneira rápida e intuitiva.",
+            link: "https://firefly.adobe.com/?ff_channel=adobe_com&ff_campaign=feature_page&ff_source=firefly_seo"
+        },
+        {
             titulo: "Midjourney",
             imagem: "./assets-descubra/midjourney.png",
             descricao: "MidJourney gera imagens a partir de descrições textuais, proporcionando resultados visuais criativos e únicos.",
