@@ -175,7 +175,7 @@ header h1 {
     text-align: center;
     position: relative;
     margin-top: 10px;
-    font-weight: 100px;
+    font-weight: 100;
 }
 
 .column h2::after {
