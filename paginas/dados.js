@@ -36,6 +36,12 @@ const dadosIA = {
             descricao: "Cohesive é um assistente virtual que oferece suporte em organização e produtividade com inteligência adaptativa.",
             link: "https://cohesive.so"
         },
+        {
+            titulo: "Gamma",
+            imagem: "./assets-descubra/gamma.png",
+            descricao: "Gamma é uma plataforma de criação de apresentações e documentos que utiliza IA para facilitar o design e a formatação.",
+            link: "https://gamma.app"
+        },
     ],
     "imagem": [
         {
