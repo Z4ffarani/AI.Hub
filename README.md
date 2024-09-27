@@ -19,9 +19,6 @@ O principal objetivo do projeto é democratizar o acesso às IAs que estão revo
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-- <b>HTML5 </b>| Estrutura do conteúdo das páginas.
-- <b>CSS3 </b>| Estilização e design responsivo.
-- <b>JavaScript </b>| Interatividade, armazenamento e manipulação dinâmica do conteúdo.
 
 # TERMOS DE USO
 ### Aceitação dos termos:
