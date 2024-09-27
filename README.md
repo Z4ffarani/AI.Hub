@@ -9,16 +9,22 @@ O layout responsivo foi cuidadosamente trabalhado para garantir que o site se ad
 
 O principal objetivo do projeto é democratizar o acesso às IAs que estão revolucionando o mercado, tornando-as mais visíveis e acessíveis para um público mais amplo. Ao reunir ferramentas disruptivas e categorizá-las de maneira dinâmica, o site oferece uma experiência simplificada, mas altamente eficiente, promovendo a inovação e ajudando os usuários a explorar o potencial de novas tecnologias!
 
+<br>
+
 # FUNCIONALIDADES
 - <b>Layout responsivo </b>| O site é otimizado para diferentes tamanhos de tela, com scroll horizontal em telas grandes e estilo de gaveta para dispositivos móveis.
 - <b>Caixa de pesquisa </b>| Permite a filtragem dinâmica das IAs disponíveis conforme o usuário digita, exibindo-as em suas respectivas colunas.
 - <b>Cards interativos </b>| Cada card exibe uma imagem de fundo com opacidade, um título, uma descrição e um botão para descobrir mais.
 - <b>Expansão de colunas </b>| Em dispositivos móveis, as colunas podem ser expandidas e contraídas ao clicar no título da coluna.
 
+<br>
+
 # TECNOLOGIAS
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+<br>
 
 # TERMOS DE USO
 ### Aceitação dos termos:
