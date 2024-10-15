@@ -328,7 +328,6 @@ footer a:active {
 
     .column h2:active {
         scale: 95%;
-        border: 3px solid #00b7ff;
     }
 
     .card-container {
