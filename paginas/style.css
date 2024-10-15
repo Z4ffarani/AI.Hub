@@ -136,10 +136,15 @@ header h1 {
     font-size: 1.3rem;
     margin-top: 7rem;
     padding: 0px 5px;
+    transition: 200ms ease;
 }
 
 .info-links a:hover {
     color: var(--primary-color);
+}
+
+.info-links a:active {
+    scale: 95%;
 }
 
 .ai-columns {
@@ -156,7 +161,7 @@ header h1 {
     flex: 1 1 300px;
     max-width: 300px;
     padding: 1rem;
-    background-color: rgb(25, 25, 25);
+    background-color: #151515;
     border-radius: 8px;
     overflow: hidden;
     position: relative;
@@ -174,8 +179,12 @@ header h1 {
     color: var(--text-color);
     text-align: center;
     position: relative;
-    margin-top: 10px;
+    margin-top: -7px;
+    margin-bottom: 10px;
+    width: 150px;
+    padding: 14px 0px;
     font-weight: 100;
+    transition: 200ms ease;
 }
 
 .column h2::after {
@@ -271,6 +280,20 @@ footer {
     background-color: transparent;
 }
 
+footer a {
+    color: #999;
+    text-decoration: none;
+    transition: 200ms ease;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer a:active {
+    font-size: 15px;
+}
+
 @media (min-width: 1024px) {
     .ai-columns {
         flex-direction: row;
@@ -298,6 +321,14 @@ footer {
 
     .column h2 {
         cursor: pointer;
+        border-radius: 10px;
+        color: #00b7ff;
+        border: 1px solid #00b7ff;
+    }
+
+    .column h2:active {
+        scale: 95%;
+        border: 3px solid #00b7ff;
     }
 
     .card-container {

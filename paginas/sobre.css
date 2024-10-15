@@ -62,11 +62,16 @@ header h1 {
     font-size: 1.3rem;
     margin-top: 7rem;
     padding: 0px 5px;
+    transition: 200ms ease;
 }
 
 .info-links a:hover {
     color: rgb(0, 183, 255);
     text-decoration: none;
+}
+
+.info-links a:active {
+    scale: 95%;
 }
 
 .content-section {
@@ -91,7 +96,7 @@ header h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 2.3rem;
-    background-color: #141414cc;
+    background-color: #151515;
     padding: 20px;
     border-radius: 8px;
     border: solid 2px #00b7ff;
@@ -156,6 +161,20 @@ footer {
     padding: 1rem;
     font-size: 1rem;
     background-color: transparent;
+}
+
+footer a {
+    color: #999;
+    text-decoration: none;
+    transition: 200ms ease;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer a:active {
+    font-size: 15px;
 }
 
 @media (max-width: 1200px) {
