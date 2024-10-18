@@ -1,4 +1,31 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const aiColumns = document.querySelector('.ai-columns');
+
+    let isMouseDown = false;
+    let startX, scrollLeft;
+    
+    aiColumns.addEventListener('mousedown', (e) => {
+        isMouseDown = true;
+        startX = e.pageX - aiColumns.offsetLeft;
+        scrollLeft = aiColumns.scrollLeft;
+    });
+    
+    aiColumns.addEventListener('mouseleave', () => {
+        isMouseDown = false;
+    });
+    
+    aiColumns.addEventListener('mouseup', () => {
+        isMouseDown = false;
+    });
+    
+    aiColumns.addEventListener('mousemove', (e) => {
+        if (!isMouseDown) return;
+        e.preventDefault();
+        const x = e.pageX - aiColumns.offsetLeft;
+        const walk = (x - startX) * 2;
+        aiColumns.scrollLeft = scrollLeft - walk;
+    });
+
     function gerarCards(categoria, dados) {
         const container = document.getElementById(`cards-${categoria}`);
         if (!container) return;

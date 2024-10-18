@@ -32,7 +32,7 @@ const dadosIA = {
         },
         {
             titulo: "Cohesive AI",
-            imagem: "./assets-descubra/cohesive-ai.jpg",
+            imagem: "./assets-descubra/cohesive-ai.webp",
             descricao: "Cohesive é um assistente virtual que oferece suporte em organização e produtividade com inteligência adaptativa.",
             link: "https://cohesive.so"
         },
@@ -102,7 +102,7 @@ const dadosIA = {
         },
         {
             titulo: "KlingAI",
-            imagem: "./assets-descubra/kling-ai.jpg",
+            imagem: "./assets-descubra/kling-ai.webp",
             descricao: "KlingAI cria e edita vídeos automaticamente com base em prompts, oferecendo soluções práticas para criação de conteúdo.",
             link: "https://klingai.com"
         },
@@ -196,7 +196,7 @@ const dadosIA = {
         },
         {
             titulo: "SciSpace",
-            imagem: "./assets-descubra/scispace.jpg",
+            imagem: "./assets-descubra/scispace.webp",
             descricao: "SciSpace facilita a exploração e compreensão de artigos científicos, utilizando IA para simplificar a leitura e análise.",
             link: "https://www.typeset.io"
         },

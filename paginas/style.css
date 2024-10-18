@@ -12,7 +12,8 @@
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -21,7 +22,6 @@
 
 ::-webkit-scrollbar-thumb {
     background: #333;
-    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -147,21 +147,25 @@ header h1 {
     scale: 95%;
 }
 
-.ai-columns {
+.center-columns {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
+    user-select: none;
+}
+
+.ai-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     padding: 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    overflow-x: hidden;
 }
 
 .column {
     flex: 1 1 300px;
+    min-width: 300px;
     max-width: 300px;
     padding: 1rem;
-    background-color: #151515;
     border-radius: 8px;
     overflow: hidden;
     position: relative;
@@ -169,7 +173,9 @@ header h1 {
     flex-direction: column;
     align-items: center;
     max-height: 500px;
-    transition: max-height 0.2s ease;
+    
+    background-color: #131313;
+    transition: max-height 200ms ease;
 }
 
 .column h2 {
@@ -184,7 +190,6 @@ header h1 {
     width: 150px;
     padding: 14px 0px;
     font-weight: 100;
-    transition: 200ms ease;
 }
 
 .column h2::after {
@@ -218,6 +223,21 @@ header h1 {
     max-height: 220px;
     min-height: 220px;
     justify-content: space-evenly;
+    
+    animation: blink 5s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {
+        box-shadow: 0px 0px 5px transparent;
+    }
+    50% {
+        box-shadow: 0px 0px 5px #00b7ff;
+    }
+    100% {
+        box-shadow: 0px 0px 5px transparent;
+    }
 }
 
 .card img {
@@ -251,17 +271,17 @@ header h1 {
 }
 
 .card button {
-    padding: 0.6rem 1.4rem;
+    padding: 0.6rem 1.2rem;
     border: none;
     border-radius: 50px;
-    background-color: var(--primary-color);
-    color: black;
     cursor: pointer;
     font-size: 1rem;
-    transition: background-color 200ms ease, transform 200ms ease;
+    transition: 200ms ease;
     position: relative;
     z-index: 1;
     font-weight: 700;
+    color: black;
+    background-color: var(--primary-color);
 }
 
 .card button:hover {
@@ -273,7 +293,6 @@ header h1 {
 }
 
 footer {
-    color: #999;
     text-align: center;
     padding: 1rem;
     font-size: 1rem;
@@ -281,13 +300,13 @@ footer {
 }
 
 footer a {
-    color: #999;
+    color: white;
     text-decoration: none;
     transition: 200ms ease;
 }
 
 footer a:hover {
-    color: white;
+    color: #00b7ff;
 }
 
 footer a:active {
@@ -295,20 +314,14 @@ footer a:active {
 }
 
 @media (min-width: 1024px) {
-    .ai-columns {
-        flex-direction: row;
-        overflow-x: auto;
-    }
-
     .column {
-        max-height: none;
+        max-height: 2000px;
     }
 }
 
 @media (max-width: 768px) {
     .ai-columns {
         flex-direction: column;
-        align-items: center;
     }
 
     .column {

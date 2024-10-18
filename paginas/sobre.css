@@ -20,7 +20,7 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0.05;
 }
 
 header {
@@ -96,24 +96,24 @@ header h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 2.3rem;
-    background-color: #151515;
     padding: 20px;
     border-radius: 8px;
-    border: solid 2px #00b7ff;
+
     animation: blink 5s ease;
     animation-iteration-count: infinite;
     max-width: 1100px;
+    background-color: #131313;
 }
 
 @keyframes blink {
     0% {
-        border: solid 2px #00b7ff00;
+        box-shadow: 0px 0px 10px transparent;
     }
     50% {
-        border: solid 2px #00b7ff;
+        box-shadow: 0px 0px 10px #00b7ff;
     }
     100% {
-        border: solid 2px #00b7ff00;
+        box-shadow: 0px 0px 10px transparent;
     }
 }
 
@@ -156,7 +156,6 @@ header h1 {
 }
 
 footer {
-    color: #999;
     text-align: center;
     padding: 1rem;
     font-size: 1rem;
@@ -164,17 +163,13 @@ footer {
 }
 
 footer a {
-    color: #999;
+    color: white;
     text-decoration: none;
     transition: 200ms ease;
 }
 
 footer a:hover {
-    color: white;
-}
-
-footer a:active {
-    font-size: 15px;
+    color: #00b7ff;
 }
 
 @media (max-width: 1200px) {
