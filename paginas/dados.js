@@ -69,10 +69,10 @@ const dadosIA = {
             link: "https://stablediffusionweb.com"
         },
         {
-            titulo: "Krea.ai",
-            imagem: "./assets-descubra/krea.ai.webp",
-            descricao: "Krea.ai é uma plataforma de criação de imagens e vídeos gerados por IA, ajustando-os com estilos e temas.",
-            link: "https://www.krea.ai/home"
+            titulo: "Leonardo AI",
+            imagem: "./assets-descubra/leonardo-ai.webp",
+            descricao: "Leonardo AI permite a criação rápida de imagens e ilustrações de alta qualidade com ferramentas exclusivas e aprimoramento de resolução.",
+            link: "https://leonardo.ai"
         },
         {
             titulo: "Dreamstudio",
@@ -105,6 +105,12 @@ const dadosIA = {
             imagem: "./assets-descubra/kling-ai.webp",
             descricao: "KlingAI cria e edita vídeos automaticamente com base em prompts, oferecendo soluções práticas para criação de conteúdo.",
             link: "https://klingai.com"
+        },
+        {
+            titulo: "Krea.ai",
+            imagem: "./assets-descubra/krea.ai.webp",
+            descricao: "Krea.ai é uma plataforma de criação de imagens e vídeos gerados por IA, ajustando-os com estilos e temas.",
+            link: "https://www.krea.ai/home"
         },
         {
             titulo: "InVideo",
