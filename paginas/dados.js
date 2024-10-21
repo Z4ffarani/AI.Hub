@@ -71,7 +71,7 @@ const dadosIA = {
         {
             titulo: "Leonardo AI",
             imagem: "./assets-descubra/leonardo-ai.webp",
-            descricao: "Leonardo AI permite a criação rápida de imagens e ilustrações de alta qualidade com ferramentas exclusivas e aprimoramento de resolução.",
+            descricao: "Leonardo AI permite a criação rápida de imagens e ilustrações de alta qualidade com ferramentas exclusivas.",
             link: "https://leonardo.ai"
         },
         {
