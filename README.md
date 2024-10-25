@@ -1,4 +1,8 @@
-![LOGO](./paginas/assets-descubra/logo.png)
+<div align="center">
+
+![TRAILER](./paginas/ai.hub.gif)
+
+</div>
 
 # SOBRE O PROJETO
 A criação de um site que exibe cards com inteligências artificiais (IAs) voltadas para diversas aplicações foi um processo cuidadosamente planejado e executado com o objetivo de facilitar o acesso a ferramentas tecnológicas disruptivas. O projeto foi desenvolvido utilizando HTML, CSS e JavaScript, linguagens essenciais para a construção de páginas web dinâmicas e interativas. Um pequeno banco de dados em formato JavaScript foi implementado para armazenar e organizar as informações das IAs, como nomes, categorias, descrições e links para os serviços.

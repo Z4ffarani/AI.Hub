@@ -139,6 +139,12 @@ const dadosIA = {
             link: "https://www.elevenlabs.io"
         },
         {
+            titulo: "LALAL.AI",
+            imagem: "./assets-descubra/lalal.ai.webp",
+            descricao: "LALAL.AI usa IA para separar vocais e instrumentos de músicas, permitindo a criação de remixes e novas composições.",
+            link: "https://www.lalal.ai"
+        },
+        {
             titulo: "Suno AI",
             imagem: "./assets-descubra/suno-ai.webp",
             descricao: "Suno AI compõe músicas com base em parâmetros definidos pelo usuário, proporcionando áudio personalizado.",

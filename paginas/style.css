@@ -57,6 +57,10 @@ header h1 {
     user-select: none;
 }
 
+header span {
+    color: #00b7ff;
+}
+
 .search-section {
     display: flex;
     justify-content: center;

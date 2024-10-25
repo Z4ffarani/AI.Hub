@@ -40,6 +40,10 @@ header h1 {
     color: white;
 }
 
+header span {
+    color: #00b7ff;
+}
+
 .info-links {
     display: flex;
     justify-content: center;
