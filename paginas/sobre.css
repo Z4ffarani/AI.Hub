@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00b7ff73;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #00b7ff;
+}
+
 body {
     font-family: "Ubuntu", sans-serif;
     background-color: black;
@@ -170,6 +184,10 @@ footer a {
     color: white;
     text-decoration: none;
     transition: 200ms ease;
+}
+
+footer a:active {
+    font-size: 15px;
 }
 
 footer a:hover {
