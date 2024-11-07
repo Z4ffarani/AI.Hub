@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const aiColumns = document.querySelector('.ai-columns');
+    const button = document.getElementById('toggleButton');
 
     let isMouseDown = false;
     let startX, scrollLeft;
@@ -40,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${ia.imagem}" alt="${ia.titulo}">
                 <h3>${ia.titulo}</h3>
                 <p>${ia.descricao}</p>
-                <button onclick="window.open('${ia.link}', '_blank')">Descobrir</button>
+                <button onclick="window.open('${ia.link}', '_blank' rel="noopener noreferrer")">Descobrir</button>
             `;
 
             container.appendChild(card);
@@ -72,9 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    document.querySelectorAll('.column h2').forEach(header => {
-        header.addEventListener('click', () => {
-            const column = header.parentElement;
+    document.querySelectorAll('.column h2').forEach(card => {
+        card.addEventListener('click', () => {
+            card.classList.toggle('active')
+            const column = card.parentElement;
             column.classList.toggle('active');
         });
     });
