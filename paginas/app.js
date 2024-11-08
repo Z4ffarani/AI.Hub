@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${ia.imagem}" alt="${ia.titulo}">
                 <h3>${ia.titulo}</h3>
                 <p>${ia.descricao}</p>
-                <button onclick="window.open('${ia.link}', '_blank' rel="noopener noreferrer")">Descobrir</button>
+                <button onclick="window.open('${ia.link}', '_blank')">Descobrir</button>
             `;
 
             container.appendChild(card);
