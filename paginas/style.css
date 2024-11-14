@@ -2,16 +2,16 @@
 
 ::-webkit-scrollbar {
     background-color: transparent;
-    width: 10px;
+    width: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #00b7ff73;
+    background-color: #00b7ff;
     border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #00b7ff;
+    background-color: #00b7ff73;
 }
 
 :root {
@@ -174,7 +174,6 @@ header span {
     flex-direction: column;
     align-items: center;
     max-height: 500px;
-    
     background-color: #131313;
 }
 
@@ -315,7 +314,7 @@ footer a:active {
 
 @media (min-width: 1024px) {
     .column {
-        max-height: 2000px;
+        max-height: 2500px;
     }
 }
 

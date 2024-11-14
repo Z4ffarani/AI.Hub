@@ -2,16 +2,16 @@
 
 ::-webkit-scrollbar {
     background-color: transparent;
-    width: 10px;
+    width: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #00b7ff73;
+    background-color: #00b7ff;
     border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #00b7ff;
+    background-color: #00b7ff73;
 }
 
 body {

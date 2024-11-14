@@ -25,10 +25,10 @@ const dadosIA = {
             link: "https://www.meta.ai"
         },
         {
-            titulo: "Jasper",
-            imagem: "./assets-descubra/jasper.webp",
-            descricao: "Jasper é um chatbot de IA especializado em criar textos e conteúdo de marketing a partir de prompts específicos.",
-            link: "https://www.jasper.ai"
+            titulo: "Simplified",
+            imagem: "./assets-descubra/simplified.webp",
+            descricao: "A Simplified é uma plataforma integrada de criação de conteúdos visuais de maneira rápida e eficiente.",
+            link: "https://simplified.com"
         },
         {
             titulo: "Cohesive AI",
@@ -41,12 +41,6 @@ const dadosIA = {
             imagem: "./assets-descubra/gamma.webp",
             descricao: "Gamma é uma plataforma de criação de apresentações e documentos que utiliza IA para facilitar o design e a formatação.",
             link: "https://gamma.app"
-        },
-        {
-            titulo: "Simplified",
-            imagem: "./assets-descubra/simplified.webp",
-            descricao: "A Simplified é uma plataforma integrada de criação de conteúdos visuais de maneira rápida e eficiente.",
-            link: "https://simplified.com"
         },
     ],
     "imagem": [
@@ -92,12 +86,6 @@ const dadosIA = {
             descricao: "Dreamstudio utiliza IA para criar arte digital e imagens com base em inputs criativos dos usuários.",
             link: "https://dreamstudio.ai"
         },
-        {
-            titulo: "Looka",
-            imagem: "./assets-descubra/looka.webp",
-            descricao: "Looka gera logotipos e identidades visuais personalizadas utilizando IA para atender às necessidades de marcas e empresas.",
-            link: "https://looka.com"
-        },
     ],
     "video": [
         {
@@ -115,7 +103,7 @@ const dadosIA = {
         {
             titulo: "Flux AI",
             imagem: "./assets-descubra/flux-ai.webp",
-            descricao: "O Flux AI é uma ferramenta de AI construída sobre o modelo Flux que permite criar imagens e vídeos de alta qualidade a partir de prompts.",
+            descricao: "O Flux AI é uma ferramenta de AI construída sobre o modelo Flux que permite criar imagens e vídeos a partir de prompts.",
             link: "https://flux-ai.io"
         },
         {
