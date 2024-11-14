@@ -42,6 +42,12 @@ const dadosIA = {
             descricao: "Gamma é uma plataforma de criação de apresentações e documentos que utiliza IA para facilitar o design e a formatação.",
             link: "https://gamma.app"
         },
+        {
+            titulo: "Simplified",
+            imagem: "./assets-descubra/simplified.webp",
+            descricao: "A Simplified é uma plataforma integrada de criação de conteúdos visuais de maneira rápida e eficiente.",
+            link: "https://simplified.com"
+        },
     ],
     "imagem": [
         {
@@ -67,6 +73,12 @@ const dadosIA = {
             imagem: "./assets-descubra/stable-diffusion.webp",
             descricao: "Stable Diffusion gera imagens de alta qualidade a partir de descrições textuais, com ênfase em detalhes e precisão.",
             link: "https://stablediffusionweb.com"
+        },
+        {
+            titulo: "Krea.ai",
+            imagem: "./assets-descubra/krea.ai.webp",
+            descricao: "Krea.ai é uma plataforma de criação de imagens e vídeos gerados por IA, ajustando-os com estilos, composições, resoluções e temas.",
+            link: "https://www.krea.ai/home"
         },
         {
             titulo: "Leonardo AI",
@@ -101,16 +113,16 @@ const dadosIA = {
             link: "https://lumalabs.ai/dream-machine"
         },
         {
-            titulo: "KlingAI",
-            imagem: "./assets-descubra/kling-ai.webp",
-            descricao: "KlingAI cria e edita vídeos automaticamente com base em prompts, oferecendo soluções práticas para criação de conteúdo.",
-            link: "https://klingai.com"
+            titulo: "Flux AI",
+            imagem: "./assets-descubra/flux-ai.webp",
+            descricao: "O Flux AI é uma ferramenta de AI construída sobre o modelo Flux que permite criar imagens e vídeos de alta qualidade a partir de prompts.",
+            link: "https://flux-ai.io"
         },
         {
-            titulo: "Krea.ai",
-            imagem: "./assets-descubra/krea.ai.webp",
-            descricao: "Krea.ai é uma plataforma de criação de imagens e vídeos gerados por IA, ajustando-os com estilos e temas.",
-            link: "https://www.krea.ai/home"
+            titulo: "KLING AI",
+            imagem: "./assets-descubra/kling-ai.webp",
+            descricao: "KLING AI cria e edita vídeos automaticamente com base em prompts, oferecendo soluções práticas para criação de conteúdo.",
+            link: "https://klingai.com"
         },
         {
             titulo: "InVideo",
@@ -179,7 +191,7 @@ const dadosIA = {
         {
             titulo: "Humata",
             imagem: "./assets-descubra/humata.webp",
-            descricao: "Humata ajuda na compreensão e análise de textos complexos, utilizando IA para facilitar a pesquisa e aprendizado.",
+            descricao: "Humata ajuda na compreensão e análise de grandes textos, utilizando IA para facilitar a pesquisa e aprendizado.",
             link: "https://www.humata.ai"
         },
         {
@@ -199,6 +211,12 @@ const dadosIA = {
             imagem: "./assets-descubra/perplexity.webp",
             descricao: "Perplexity fornece respostas e análises detalhadas para questões acadêmicas, utilizando IA para interpretar dados e pesquisas.",
             link: "https://www.perplexity.ai"
+        },
+        {
+            titulo: "Grammarly",
+            imagem: "./assets-descubra/grammarly.webp",
+            descricao: "Grammarly é uma ferramenta digital de revisão e aprimoramento de texto baseada em inteligência artificial.",
+            link: "https://www.grammarly.com"
         },
         {
             titulo: "Elicit",
