@@ -16,10 +16,10 @@ O principal objetivo do projeto é democratizar o acesso às IAs que estão revo
 <br>
 
 # FUNCIONALIDADES
-- <b>Layout responsivo </b>| O site é otimizado para diferentes tamanhos de tela, com scroll horizontal em telas grandes e estilo de gaveta para dispositivos móveis.
-- <b>Caixa de pesquisa </b>| Permite a filtragem dinâmica das IAs disponíveis conforme o usuário digita, exibindo-as em suas respectivas colunas.
-- <b>Cards interativos </b>| Cada card exibe uma imagem de fundo com opacidade, um título, uma descrição e um botão para descobrir mais.
-- <b>Expansão de colunas </b>| Em dispositivos móveis, as colunas podem ser expandidas e contraídas ao clicar no título da coluna.
+- **Layout responsivo** | O site é otimizado para diferentes tamanhos de tela, com scroll horizontal em telas grandes e estilo de gaveta para dispositivos móveis.
+- **Caixa de pesquisa** | Permite a filtragem dinâmica das IAs disponíveis conforme o usuário digita, exibindo-as em suas respectivas colunas.
+- **Cards interativos** | Cada card exibe uma imagem de fundo com opacidade, um título, uma descrição e um botão para descobrir mais.
+- **Expansão de colunas** | Em dispositivos móveis, as colunas podem ser expandidas e contraídas ao clicar no título da coluna.
 
 <br>
 
