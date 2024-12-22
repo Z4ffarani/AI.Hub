@@ -113,6 +113,12 @@ const dadosIA = {
             link: "https://klingai.com"
         },
         {
+            titulo: "Hailuo AI",
+            imagem: "./assets-descubra/hailuo-ai.webp",
+            descricao: "Hailuo AI oferece soluções avançadas de inteligência artificial para criação e edição de vídeos, facilitando a produção de conteúdo de alta qualidade.",
+            link: "https://hailuoai.video"
+        },
+        {
             titulo: "InVideo",
             imagem: "./assets-descubra/invideo.webp",
             descricao: "InVideo fornece criação automatizada de vídeos a partir de promptss e modelos, ideal para marketing e produção rápida.",
@@ -123,12 +129,6 @@ const dadosIA = {
             imagem: "./assets-descubra/ssemble.webp",
             descricao: "Ssemble utiliza IA para facilitar a criação e edição de vídeos, com suporte automatizado para otimizar o processo.",
             link: "https://ssemble.com"
-        },
-        {
-            titulo: "Lumen5",
-            imagem: "./assets-descubra/lumen5.webp",
-            descricao: "Lumen5 transforma prompts em vídeos de marketing profissionais, utilizando IA para criar conteúdo visual de alta qualidade.",
-            link: "https://lumen5.com"
         },
     ],
     "audio": [
