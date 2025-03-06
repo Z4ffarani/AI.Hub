@@ -13,6 +13,12 @@ const dadosIA = {
             link: "https://chat.openai.com"
         },
         {
+            titulo: "Grok",
+            imagem: "./assets-descubra/grok.webp",
+            descricao: "Grok é um modelo de inteligência artificial desenvolvido pela xAI. Ele foi projetado para ser uma alternativa a outras IAs generativas.",
+            link: "https://grok.com/?referrer=website"
+        },
+        {
             titulo: "Copilot",
             imagem: "./assets-descubra/microsoft-copilot.webp",
             descricao: "Copilot é um assistente virtual da Microsoft que integra IA em produtos para melhorar produtividade e suporte.",
@@ -23,12 +29,6 @@ const dadosIA = {
             imagem: "./assets-descubra/metaai.webp",
             descricao: "Meta AI é um chatbot da Meta que combina raciocínio complexo, visualização de ideias e resolução de problemas.",
             link: "https://www.meta.ai"
-        },
-        {
-            titulo: "Simplified",
-            imagem: "./assets-descubra/simplified.webp",
-            descricao: "A Simplified é uma plataforma integrada de criação de conteúdos visuais de maneira rápida e eficiente.",
-            link: "https://simplified.com"
         },
         {
             titulo: "Cohesive AI",
