@@ -15,7 +15,7 @@ const dadosIA = {
         {
             titulo: "Grok",
             imagem: "./assets-descubra/grok.webp",
-            descricao: "Grok é um modelo de inteligência artificial desenvolvido pela xAI. Ele foi projetado para ser uma alternativa a outras IAs generativas.",
+            descricao: "Grok é um modelo de inteligência artificial desenvolvido pela xAI. Apresenta alto poder generativo.",
             link: "https://grok.com/?referrer=website"
         },
         {
