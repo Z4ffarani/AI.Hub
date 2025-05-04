@@ -140,7 +140,7 @@ const dadosIA = {
     "audio": [
         {
             titulo: "ElevenLabs",
-            imagem: "https://static.wikia.nocookie.net/logopedia/images/9/99/Eleven_Labs.png/revision/latest/smart/width/386/height/259?cb=20230224150556",
+            imagem: "https://images.squarespace-cdn.com/content/v1/662af4aa7ada953b68d9c393/0051744a-da87-474b-9541-95fe3fadfdb2/logo-elevenlabs+%281%29.jpeg",
             link: "https://www.elevenlabs.io"
         },
         {
