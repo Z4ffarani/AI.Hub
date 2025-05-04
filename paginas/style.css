@@ -305,6 +305,10 @@ footer a:active {
 }
 
 @media (max-width: 768px) {
+    .card {
+        opacity: 100%;
+    }
+
     .info-links a {
         font-size: 1.2rem;
     }
