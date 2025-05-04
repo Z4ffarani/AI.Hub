@@ -2,220 +2,212 @@ const dadosIA = {
     "geral": [
         {
             titulo: "Google Gemini",
-            imagem: "./assets-descubra/google-gemini.webp",
-            descricao: "Google Gemini é um chatbot avançado que oferece suporte versátil para uma ampla gama de tarefas e interações.",
+            imagem: "https://cloudonair.withgoogle.com/api/assets?path=/gs/gweb-gc-gather-production.appspot.com/files/AFiumC5HS17acVQUTkwzerfEucSVvRMinXGOqC97Dtg5fREwhUful4BC97FFW2yEBLn9NPSd-7o.k0guz5CS4xZQu6H2",
             link: "https://www.google.com/gemini"
         },
         {
             titulo: "ChatGPT",
-            imagem: "./assets-descubra/chatgpt.webp",
-            descricao: "ChatGPT é um chatbot da OpenAI que fornece interações conversacionais e assistência em diversas atividades.",
+            imagem: "https://www.primecursos.com.br/blog/wp-content/uploads/2023/09/chatgpt-gif.gif",
             link: "https://chat.openai.com"
         },
         {
-            titulo: "Grok",
-            imagem: "./assets-descubra/grok.webp",
-            descricao: "Grok é um modelo de inteligência artificial desenvolvido pela xAI. Apresenta alto poder generativo.",
-            link: "https://grok.com/?referrer=website"
-        },
-        {
             titulo: "Copilot",
-            imagem: "./assets-descubra/microsoft-copilot.webp",
-            descricao: "Copilot é um assistente virtual da Microsoft que integra IA em produtos para melhorar produtividade e suporte.",
+            imagem: "https://www.microsoft.com/en-us/microsoft-cloud/blog/wp-content/uploads/2024/02/Copilot_Studio_Icon_Animation_v01-5-1-1.gif",
             link: "https://www.microsoft.com/copilot"
         },
         {
+            titulo: "Grok",
+            imagem: "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_400x400.jpg",
+            link: "https://grok.com/?referrer=website"
+        },
+        {
             titulo: "Meta AI",
-            imagem: "./assets-descubra/metaai.webp",
-            descricao: "Meta AI é um chatbot da Meta que combina raciocínio complexo, visualização de ideias e resolução de problemas.",
+            imagem: "https://about.fb.com/wp-content/uploads/2024/04/Meta-AI-Expasion_Header.gif",
             link: "https://www.meta.ai"
         },
         {
-            titulo: "Cohesive AI",
-            imagem: "./assets-descubra/cohesive-ai.webp",
-            descricao: "Cohesive é um assistente virtual que oferece suporte em organização e produtividade com inteligência adaptativa.",
-            link: "https://cohesive.so"
+            titulo: "DeepSeek",
+            imagem: "https://media.licdn.com/dms/image/v2/D4D22AQEZ4wPykL9dJg/feedshare-shrink_480/B4DZSozFOOHAAY-/0/1737998751797?e=2147483647&v=beta&t=k3DiG5y39wwcrIqaxhWYlcUGgu48oH5AHmoqvmubfgk",
+            link: "https://www.deepseek.com"
         },
         {
             titulo: "Gamma",
-            imagem: "./assets-descubra/gamma.webp",
-            descricao: "Gamma é uma plataforma de criação de apresentações e documentos que utiliza IA para facilitar o design e a formatação.",
+            imagem: "https://images-websitehunt.s3.amazonaws.com/website/d02e52d7-e21c-4e9e-89af-f1cb5dd61a3b.gif",
             link: "https://gamma.app"
+        },
+    ],
+    "agente": [
+        {
+            titulo: "Manus",
+            imagem: "https://logowik.com/content/uploads/images/manus271.logowik.com.webp",
+            link: "https://manus.im/?index=1"
+        },
+        {
+            titulo: "Lovable",
+            imagem: "https://promptzone-community.s3.amazonaws.com/uploads/articles/4pgriwt21pz5vti3sedb.png",
+            link: "https://lovable.dev"
+        },
+        {
+            titulo: "Bolt",
+            imagem: "https://pbs.twimg.com/profile_images/1880702021122342912/fe9TlQqJ_400x400.jpg",
+            link: "https://bolt.new"
+        },
+        {
+            titulo: "V0",
+            imagem: "https://freeappsai.com/wp-content/uploads/2024/09/v0.svg",
+            link: "https://v0.dev"
+        },
+        {
+            titulo: "Bubble",
+            imagem: "https://images.seeklogo.com/logo-png/44/1/bubble-icon-logo-png_seeklogo-448116.png",
+            link: "https://bubble.io"
         },
     ],
     "imagem": [
         {
             titulo: "Adobe Firefly",
-            imagem: "./assets-descubra/adobe-firefly.webp",
-            descricao: "O Adobe Firefly é uma plataforma da Adobe projetada para criar conteúdo visual de maneira rápida e intuitiva com IA generativa.",
+            imagem: "https://miro.medium.com/v2/resize:fit:1200/1*Z7vBg5hilukZ21tQ_PLJdQ.gif",
             link: "https://firefly.adobe.com/?ff_channel=adobe_com&ff_campaign=feature_page&ff_source=firefly_seo"
         },
         {
             titulo: "Midjourney",
-            imagem: "./assets-descubra/midjourney.webp",
-            descricao: "MidJourney gera imagens a partir de descrições textuais, proporcionando resultados visuais criativos e únicos.",
+            imagem: "https://i.pcmag.com/imagery/roundup-products/06ONXdUgqR6joGzcVVB1Nvv.fit_lim.size_1050x591.v1729219320.png",
             link: "https://www.midjourney.com/explore?tab=top"
         },
         {
             titulo: "NightCafe",
-            imagem: "./assets-descubra/nightcafeai.webp",
-            descricao: "NightCafe cria imagens a partir de prompts e estilos diversos, permitindo uma ampla personalização visual.",
+            imagem: "https://www.mtoag.com/wp-content/uploads/2023/12/night-cafe-scaled-1.jpg",
             link: "https://creator.nightcafe.studio"
         },
         {
             titulo: "Stable Diffusion",
-            imagem: "./assets-descubra/stable-diffusion.webp",
-            descricao: "Stable Diffusion gera imagens de alta qualidade a partir de descrições textuais, com ênfase em detalhes e precisão.",
+            imagem: "https://www.toolpilot.ai/cdn/shop/files/stablediffusion.jpg?v=1689680996",
             link: "https://stablediffusionweb.com"
         },
         {
             titulo: "Krea.ai",
-            imagem: "./assets-descubra/krea.ai.webp",
-            descricao: "Krea.ai é uma plataforma de criação de imagens e vídeos gerados por IA, ajustando-os com estilos, composições, resoluções e temas.",
+            imagem: "https://s.krea.ai/opengraph.webp",
             link: "https://www.krea.ai/home"
         },
         {
             titulo: "Leonardo AI",
-            imagem: "./assets-descubra/leonardo-ai.webp",
-            descricao: "Leonardo AI permite a criação rápida de imagens e ilustrações de alta qualidade com ferramentas exclusivas.",
+            imagem: "https://yt3.googleusercontent.com/a04AUXisIIWkI-Pj5zORQTiDNS9tALLmPc8pxuRT_aEHrCOUDsPQoLuh4QRbfgICortk7tBhyg=s900-c-k-c0x00ffffff-no-rj",
             link: "https://leonardo.ai"
         },
         {
             titulo: "Dreamstudio",
-            imagem: "./assets-descubra/dreamstudio.webp",
-            descricao: "Dreamstudio utiliza IA para criar arte digital e imagens com base em inputs criativos dos usuários.",
+            imagem: "https://pbs.twimg.com/profile_images/1642997247083200514/2Qe1msK__400x400.jpg",
             link: "https://dreamstudio.ai"
         },
     ],
     "video": [
         {
             titulo: "Runway",
-            imagem: "./assets-descubra/runway.webp",
-            descricao: "Runway é uma plataforma de IA para criação e edição de vídeos, com ferramentas inovadoras para diversos tipos de conteúdo.",
+            imagem: "https://pbs.twimg.com/tweet_video_thumb/EmoywuAXYAAD1gw.jpg:large",
             link: "https://runwayml.com"
         },
         {
             titulo: "Luma AI",
-            imagem: "./assets-descubra/lumaai.webp",
-            descricao: "Luma AI usa IA para gerar vídeos e conteúdos visuais a partir de prompts e imagens, facilitando a criação de mídia personalizada.",
+            imagem: "https://www.fahimai.com/wp-content/uploads/2024/06/Featured-Image-800-x-800-px-3.png",
             link: "https://lumalabs.ai/dream-machine"
         },
         {
             titulo: "Flux AI",
-            imagem: "./assets-descubra/flux-ai.webp",
-            descricao: "O Flux AI é uma ferramenta de AI construída sobre o modelo Flux que permite criar imagens e vídeos a partir de prompts.",
+            imagem: "https://cdn.prod.website-files.com/5ce10a4d0b5f0b560c22e756/678cd370ac1c0e0346cabebf_flux-ai-image-video-generator.svg",
             link: "https://flux-ai.io"
         },
         {
             titulo: "KLING AI",
-            imagem: "./assets-descubra/kling-ai.webp",
-            descricao: "KLING AI cria e edita vídeos automaticamente com base em prompts, oferecendo soluções práticas para criação de conteúdo.",
+            imagem: "https://martsbd.com/wp-content/uploads/2024/12/Kling-AI.jpg",
             link: "https://klingai.com"
         },
         {
             titulo: "Hailuo AI",
-            imagem: "./assets-descubra/hailuo-ai.webp",
-            descricao: "Hailuo AI oferece soluções avançadas de inteligência artificial para criação e edição de vídeos, facilitando a produção de conteúdo de alta qualidade.",
+            imagem: "https://play-lh.googleusercontent.com/m8sS0x1-yScLCN_0mGtxWlRpp6rEd8z71c23RbeAD0KA3rS6GPpDp25VxQfjHRFAXJE",
             link: "https://hailuoai.video"
         },
         {
             titulo: "InVideo",
-            imagem: "./assets-descubra/invideo.webp",
-            descricao: "InVideo fornece criação automatizada de vídeos a partir de promptss e modelos, ideal para marketing e produção rápida.",
+            imagem: "https://play-lh.googleusercontent.com/AmApygv-n4TkCmx8CE5AhzlsFFeY59-dAyFjoDo05MRzMb1UvBmuBvYMKApm1y5xQKc",
             link: "https://invideo.io"
         },
         {
             titulo: "Ssemble",
-            imagem: "./assets-descubra/ssemble.webp",
-            descricao: "Ssemble utiliza IA para facilitar a criação e edição de vídeos, com suporte automatizado para otimizar o processo.",
+            imagem: "https://yt3.googleusercontent.com/PmoWyKD1p2MDwutuR0exdZLuw404GLsCmxv6VBwcSN7lycuZ2nT5zGKRgjv8QFIRy9ecznZH=s900-c-k-c0x00ffffff-no-rj",
             link: "https://ssemble.com"
         },
     ],
     "audio": [
         {
             titulo: "ElevenLabs",
-            imagem: "./assets-descubra/eleven-labs.webp",
-            descricao: "ElevenLabs cria vozes realistas a partir de prompt, ideal para narrações e dublagens com alta qualidade de áudio.",
+            imagem: "https://static.wikia.nocookie.net/logopedia/images/9/99/Eleven_Labs.png/revision/latest?cb=20230224150556",
             link: "https://www.elevenlabs.io"
         },
         {
             titulo: "LALAL.AI",
-            imagem: "./assets-descubra/lalal.ai.webp",
-            descricao: "LALAL.AI usa IA para separar vocais e instrumentos de músicas, permitindo a criação de remixes e novas composições.",
+            imagem: "https://yt3.googleusercontent.com/Y-cMyqYHxN3mb32gaAU3QiLCJmnzwPLf52qjSeNtWCnK94P4fnKnZo-rQsR5i-HfS8wi2dku-g=s900-c-k-c0x00ffffff-no-rj",
             link: "https://www.lalal.ai"
         },
         {
             titulo: "Suno AI",
-            imagem: "./assets-descubra/suno-ai.webp",
-            descricao: "Suno AI compõe músicas com base em parâmetros definidos pelo usuário, proporcionando áudio personalizado.",
+            imagem: "https://www.eyerys.com/sites/default/files/make-a-song-with-suno.gif",
             link: "https://suno.ai"
         },
         {
             titulo: "Udio",
-            imagem: "./assets-descubra/udio.webp",
-            descricao: "Udio gera música personalizada e adapta composições conforme as necessidades do usuário, utilizando IA.",
+            imagem: "https://pbs.twimg.com/profile_images/1777855494075359232/lbsQkZHS_400x400.png",
             link: "https://udio.com"
         },
         {
-            titulo: "Mubert",
-            imagem: "./assets-descubra/mubert.webp",
-            descricao: "Mubert cria música em tempo real para diversos usos, aplicando IA para ajustar o áudio conforme o ambiente.",
-            link: "https://mubert.com"
+            titulo: "Murf AI",
+            imagem: "https://imgcache.dealmoon.com/thumbimg.dealmoon.com/us2503/dealmoon/045/a1d/a33/78f09425acc8d36fa77a45bx800x800x49.png_480_0_3_5e11.png",
+            link: "https://murf.ai"
         },
         {
             titulo: "Soundraw",
-            imagem: "./assets-descubra/soundraw.webp",
-            descricao: "Soundraw oferece criação de músicas personalizadas baseadas nas preferências do usuário, com suporte de IA.",
+            imagem: "https://media.giphy.com/avatars/SOUNDRAWio/EeL4OZOuIGBo.png",
             link: "https://soundraw.io"
         },
         {
             titulo: "Aiva",
-            imagem: "./assets-descubra/aiva.webp",
-            descricao: "Aiva compõe músicas originais em diversos estilos e gêneros, utilizando IA para criar trilhas sonoras personalizadas.",
+            imagem: "https://intelarter.com/wp-content/uploads/2023/07/aiva-ai-logo.webp",
             link: "https://www.aiva.ai"
         },
     ],
     "estudo": [
         {
-            titulo: "Humata",
-            imagem: "./assets-descubra/humata.webp",
-            descricao: "Humata ajuda na compreensão e análise de grandes textos, utilizando IA para facilitar a pesquisa e aprendizado.",
-            link: "https://www.humata.ai"
-        },
-        {
             titulo: "Claude",
-            imagem: "./assets-descubra/claude.webp",
-            descricao: "Claude é um assistente de IA que gera textos e fornece suporte em diversas atividades acadêmicas e profissionais.",
+            imagem: "https://i0.wp.com/annmichaelsen.com/wp-content/uploads/2024/04/What-Makes-Anthropics-Claude-3-Special-1-1.gif?fit=1920%2C1080&ssl=1",
             link: "https://claude.ai/login?returnTo=%2F%3F"
         },
         {
-            titulo: "Consensus",
-            imagem: "./assets-descubra/consensus.webp",
-            descricao: "Consensus oferece resumos e respostas baseadas em consenso de múltiplas fontes, facilitando a pesquisa e análise.",
-            link: "https://consensus.app"
-        },
-        {
             titulo: "Perplexity",
-            imagem: "./assets-descubra/perplexity.webp",
-            descricao: "Perplexity fornece respostas e análises detalhadas para questões acadêmicas, utilizando IA para interpretar dados e pesquisas.",
+            imagem: "https://media4.giphy.com/media/c0htH2zHvLqt87LDBB/giphy.gif?cid=6c09b952rfna6c68wargxgzflhu33d2x7bxszcbmphkpkod7&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
             link: "https://www.perplexity.ai"
         },
         {
+            titulo: "Humata",
+            imagem: "https://www.humata.ai/images/og-logo.png",
+            link: "https://www.humata.ai"
+        },
+        {
+            titulo: "Consensus",
+            imagem: "https://consensus.app/home/wp-content/uploads/2024/11/ConsensusMarkOnWhite-300x300.png",
+            link: "https://consensus.app"
+        },
+        {
             titulo: "Grammarly",
-            imagem: "./assets-descubra/grammarly.webp",
-            descricao: "Grammarly é uma ferramenta digital de revisão e aprimoramento de texto baseada em inteligência artificial.",
+            imagem: "https://images.ctfassets.net/1e6ajr2k4140/1CecYCG7ZvI1CnYmWsz6cX/85fab85e420035e4a2ef28e779035e36/Frame_31613445.png",
             link: "https://www.grammarly.com"
         },
         {
             titulo: "Elicit",
-            imagem: "./assets-descubra/elicit.webp",
-            descricao: "Elicit auxilia nos estudos e na organização de informações, otimizando o processo de coleta e análise de dados.",
+            imagem: "https://cdn.dribbble.com/userupload/15140027/file/original-6a8a115d0d70056a7d40da8241055bb1.jpg",
             link: "https://elicit.com/welcome"
         },
         {
             titulo: "SciSpace",
-            imagem: "./assets-descubra/scispace.webp",
-            descricao: "SciSpace facilita a exploração e compreensão de artigos científicos, utilizando IA para simplificar a leitura e análise.",
+            imagem: "https://blaze.today/images/posts/scispace.png",
             link: "https://www.typeset.io"
         },
     ]

@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const aiColumns = document.querySelector('.ai-columns');
-    const button = document.getElementById('toggleButton');
 
     let isMouseDown = false;
     let startX, scrollLeft;
@@ -38,10 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
             card.className = 'card';
 
             card.innerHTML = `
-                <img src="${ia.imagem}" alt="${ia.titulo}">
-                <h3>${ia.titulo}</h3>
-                <p>${ia.descricao}</p>
-                <button onclick="window.open('${ia.link}', '_blank')">Descobrir</button>
+                <a href="${ia.link}" target="_blank">
+                    <img src="${ia.imagem}" alt="${ia.titulo}">
+                </a>
             `;
 
             container.appendChild(card);
@@ -59,9 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
             let hasVisibleCard = false;
 
             cards.forEach(card => {
-                const title = card.querySelector('h3').innerText.toLowerCase();
-                const description = card.querySelector('p').innerText.toLowerCase();
-                if (title.includes(query) || description.includes(query)) {
+                const altText = card.querySelector('img').alt.toLowerCase();
+                if (altText.includes(query)) {
                     card.style.display = '';
                     hasVisibleCard = true;
                 } else {
