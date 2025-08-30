@@ -155,7 +155,7 @@ const dadosIA = {
         },
         {
             titulo: "Udio",
-            imagem: "https://pbs.twimg.com/profile_images/1777855494075359232/lbsQkZHS_400x400.png",
+            imagem: "https://hdrobots.com/wp-content/uploads/2024/04/udio-logo.webp",
             link: "https://udio.com"
         },
         {
@@ -212,4 +212,5 @@ const dadosIA = {
         },
     ]
 };
+
 
