@@ -49,7 +49,7 @@ const dadosIA = {
         },
         {
             titulo: "Bolt",
-            imagem: "https://pbs.twimg.com/profile_images/1880702021122342912/fe9TlQqJ_400x400.jpg",
+            imagem: "https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0n7qtrrtyp8g7n8u6tcc.jpg",
             link: "https://bolt.new"
         },
         {
@@ -212,3 +212,4 @@ const dadosIA = {
         },
     ]
 };
+
