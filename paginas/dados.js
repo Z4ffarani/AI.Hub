@@ -59,7 +59,7 @@ const dadosIA = {
         },
         {
             titulo: "Bubble",
-            imagem: "https://images.seeklogo.com/logo-png/44/1/bubble-icon-logo-png_seeklogo-448116.png",
+            imagem: "https://cdn-1.webcatalog.io/catalog/bubble/bubble-social-preview.png?v=1714773481031",
             link: "https://bubble.io"
         },
     ],
@@ -76,7 +76,7 @@ const dadosIA = {
         },
         {
             titulo: "NightCafe",
-            imagem: "https://www.mtoag.com/wp-content/uploads/2023/12/night-cafe-scaled-1.jpg",
+            imagem: "https://creator.nightcafe.studio/jobs/kZ2F0IR0MsbjiOJ3V0Mz/kZ2F0IR0MsbjiOJ3V0Mz-JxJo7.jpg",
             link: "https://creator.nightcafe.studio"
         },
         {
@@ -212,5 +212,6 @@ const dadosIA = {
         },
     ]
 };
+
 
 
