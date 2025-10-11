@@ -1,3 +1,5 @@
+!['banner'](./paginas/banner.png)
+
 # SOBRE O PROJETO
 A criação de um site que exibe cards com inteligências artificiais (IAs) voltadas para diversas aplicações foi um processo cuidadosamente planejado e executado com o objetivo de facilitar o acesso a ferramentas tecnológicas disruptivas. O projeto foi desenvolvido utilizando HTML, CSS e JavaScript, linguagens essenciais para a construção de páginas web dinâmicas e interativas. Um pequeno banco de dados em formato JavaScript foi implementado para armazenar e organizar as informações das IAs, como nomes, categorias, descrições e links para os serviços.
 
@@ -57,5 +59,6 @@ O principal objetivo do projeto é democratizar o acesso às IAs que estão revo
 
 ### Exclusão de garantias:
 - O site não garante que o acesso será contínuo, livre de erros, ou que eventuais problemas serão corrigidos.
+
 
 
