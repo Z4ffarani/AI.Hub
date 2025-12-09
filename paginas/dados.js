@@ -26,6 +26,11 @@ const dadosIA = {
             link: "https://www.meta.ai"
         },
         {
+            titulo: "Qwen AI",
+            imagem: "https://images.seeklogo.com/logo-png/61/1/qwen-logo-png_seeklogo-611723.png",
+            link: "https://chat.qwen.ai/"
+        },
+        {
             titulo: "DeepSeek",
             imagem: "https://media.licdn.com/dms/image/v2/D4D22AQEZ4wPykL9dJg/feedshare-shrink_480/B4DZSozFOOHAAY-/0/1737998751797?e=2147483647&v=beta&t=k3DiG5y39wwcrIqaxhWYlcUGgu48oH5AHmoqvmubfgk",
             link: "https://www.deepseek.com"
@@ -48,14 +53,14 @@ const dadosIA = {
             link: "https://lovable.dev"
         },
         {
-            titulo: "Bolt",
-            imagem: "https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0n7qtrrtyp8g7n8u6tcc.jpg",
-            link: "https://bolt.new"
-        },
-        {
             titulo: "V0",
             imagem: "https://freeappsai.com/wp-content/uploads/2024/09/v0.svg",
             link: "https://v0.dev"
+        },
+        {
+            titulo: "Bolt",
+            imagem: "https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0n7qtrrtyp8g7n8u6tcc.jpg",
+            link: "https://bolt.new"
         },
         {
             titulo: "Bubble",
@@ -192,7 +197,7 @@ const dadosIA = {
         },
         {
             titulo: "Consensus",
-            imagem: "https://consensus.app/home/wp-content/uploads/2024/11/ConsensusMarkOnWhite-300x300.png",
+            imagem: "https://fahimai.com/wp-content/uploads/2024/08/CTA-1-3.png",
             link: "https://consensus.app"
         },
         {
@@ -212,6 +217,7 @@ const dadosIA = {
         },
     ]
 };
+
 
 
 
