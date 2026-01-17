@@ -132,6 +132,11 @@ const dadosIA = {
             link: "https://hailuoai.video"
         },
         {
+            titulo: "OpusClip",
+            imagem: "https://yt3.googleusercontent.com/w8EZlhNVWPEr5RSwKyp-oGhz-YtkTWlE-cMVCpacbW5x3DPpzUgF3vySeOQGtfIpe8DGFcgN=s900-c-k-c0x00ffffff-no-rj",
+            link: "https://www.opus.pro/"
+        },
+        {
             titulo: "InVideo",
             imagem: "https://play-lh.googleusercontent.com/AmApygv-n4TkCmx8CE5AhzlsFFeY59-dAyFjoDo05MRzMb1UvBmuBvYMKApm1y5xQKc",
             link: "https://invideo.io"
@@ -217,6 +222,7 @@ const dadosIA = {
         },
     ]
 };
+
 
 
 
