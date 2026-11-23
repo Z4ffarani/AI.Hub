@@ -1,4 +1,4 @@
-![AI.Hub](./paginas/banner.png)
+![AI.Hub](./assets/banner.png)
 
 **[Site](https://z4ffarani-aihub.vercel.app) · [Publicação](https://www.linkedin.com/posts/kaique-zaffarani_alura-google-googlegemini-activity-7239090013949313024-Uryq)**
 
